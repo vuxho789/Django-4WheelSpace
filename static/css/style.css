@@ -55,6 +55,16 @@ ul {
     color: #3b589e !important;
 }
 
+/* Added - Instagram icon */
+.instagram:hover {
+    color: #e11d74 !important;
+}
+
+/* Added - Email icon */
+.envelope:hover {
+    color: #0072C6 !important;
+}
+
 .twitter:hover {
     color: #56d7fe !important;
 }
@@ -74,6 +84,24 @@ ul {
 /** Social media bg**/
 .facebook-bg {
     background: #4867aa;
+    color: #fff;
+}
+
+/* Added - Instagram icon */
+.instagram-bg {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+                /*
+                radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                */
+    color: #fff;
+}
+
+/* Added - Email icon */
+.envelope-bg {
+    background: radial-gradient(circle at center, #0078D7 30%, #002F6C 100%);
     color: #fff;
 }
 
@@ -104,6 +132,24 @@ ul {
 
 .facebook-bg:hover {
     background: #3b589e;
+    color: #fff;
+}
+
+/* Added - Instagram icon */
+.instagram-bg:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+                /*
+                radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                */
+    color: #fff;
+}
+
+/* Added - Email icon */
+.envelope-bg:hover {
+    background: radial-gradient(circle at center, #0078D7 30%, #002F6C 100%);
     color: #fff;
 }
 
@@ -919,11 +965,11 @@ input[type=checkbox]:checked + label:before {
 }
 
 .banner-bg {
-    
+
 }
 
 .item-bg {
-    
+
     height: 100vh;
     /*animation: bgburnsEast 25s linear infinite alternate;
     -webkit-animation: bgburnsEast 25s linear infinite alternate;*/
@@ -3334,6 +3380,22 @@ input[type=checkbox]:checked + label:before {
     background: #4867aa!important;
 }
 
+/* Added - Instagram icon */
+.team-1 .instagram-bg:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)!important;
+                /*
+                radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                */
+}
+
+/* Added - Email icon */
+.team-1 .envelope-bg:hover {
+    background: radial-gradient(circle at center, #0078D7 30%, #002F6C 100%)!important;
+}
+
 .team-1 .twitter-bg:hover {
     background: #56d7fe!important;
 }
@@ -3436,6 +3498,22 @@ input[type=checkbox]:checked + label:before {
 
 .team-2 .facebook-bg:hover {
     background: #4867aa!important;
+}
+
+/* Added - Instagram icon */
+.team-2 .instagram-bg:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)!important;
+                /*
+                radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                */
+}
+
+/* Added - Email icon */
+.team-2 .envelope-bg:hover {
+    background: radial-gradient(circle at center, #0078D7 30%, #002F6C 100%)!important;
 }
 
 .team-2 .twitter-bg:hover {
@@ -3920,6 +3998,22 @@ footer {
 
 .footer .facebook-bg:hover {
     background: #4867aa!important;
+}
+
+/* Added - Instagram icon */
+.footer .instagram-bg:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)!important;
+                /*
+                radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                */
+}
+
+/* Added - Email icon */
+.footer .envelope-bg:hover {
+    background: radial-gradient(circle at center, #0078D7 30%, #002F6C 100%)!important;
 }
 
 .footer .twitter-bg:hover {
@@ -4658,7 +4752,7 @@ footer {
 
 /** Listings parallax start **/
 .listings-parallax {
-    
+
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
@@ -5474,7 +5568,7 @@ footer {
 }
 
 .contact-section .bg-img {
-    
+
     background-size: cover;
     top: 0;
     bottom: 0;
@@ -5773,6 +5867,24 @@ footer {
     color: #fff;
 }
 
+/* Added - Instagram icon */
+.contact-section .instagram-bg {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+                /*
+                radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+                radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                */
+    color: #fff;
+}
+
+/* Added - Email icon */
+.contact-section .envelope-bg {
+    background: radial-gradient(circle at center, #0078D7 30%, #002F6C 100%);
+    color: #fff;
+}
+
 .contact-section .twitter-bg {
     background: #33CCFF;
     color: #fff;
@@ -5789,6 +5901,16 @@ footer {
 
 .contact-section .facebook-i {
     background: #3b589e;
+}
+
+/* Added - Instagram icon */
+.contact-section .instagram-i {
+    background: #e11d74;
+}
+
+/* Added - Email icon */
+.contact-section .envelope-i {
+    background: #0072C6;
 }
 
 .contact-section .twitter-i {
@@ -9169,7 +9291,7 @@ table {
         line-height: normal;
         margin-bottom: 15px;
     }
-    
+
     .alert {
         text-transform: uppercase;
         font-size: 12px;
@@ -9767,12 +9889,3 @@ a.nav-link.active{
 .tabbing-box .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
   color: #fff !important;
 }
-
-
-
-
-
-
-
-
-
