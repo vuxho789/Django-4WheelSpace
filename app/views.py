@@ -7,9 +7,11 @@ def home(request):
     teams = Team.objects.all()
     featured_cars = Car.objects.filter(is_featured=True).order_by('-created_date')
     latest_cars = Car.objects.order_by('-created_date')[:6]
+    car_photo_range = [f'car_photo_{i+1}' for i in range(4)]
     data = {'teams': teams,
             'featured_cars': featured_cars,
-            'latest_cars': latest_cars,}
+            'latest_cars': latest_cars,
+            'car_photo_range': car_photo_range,}
     return render(request, 'pages/home.html', data)
 
 def about(request):

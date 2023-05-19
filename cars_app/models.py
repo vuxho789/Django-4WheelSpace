@@ -69,3 +69,5 @@ class Car(models.Model):
 
     def __str__(self):
         return self.car_name
+    
+# TO DO: Create a CarPhoto model instead of having multiple car_photo attributes
