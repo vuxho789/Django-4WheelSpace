@@ -7,11 +7,21 @@ def home(request):
     teams = Team.objects.all()
     featured_cars = Car.objects.filter(is_featured=True).order_by('-created_date')
     latest_cars = Car.objects.order_by('-created_date')[:6]
-    car_photo_range = [f'car_photo_{i+1}' for i in range(4)]
+
+    make_search = Car.objects.values_list('make', flat=True).distinct().order_by('make')
+    model_search = Car.objects.values_list('model', flat=True).distinct().order_by('model')
+    year_search = Car.objects.values_list('year', flat=True).distinct().order_by('year')
+    state_search = Car.objects.values_list('state', flat=True).distinct().order_by('state')
+    body_search = Car.objects.values_list('body_style', flat=True).distinct().order_by('body_style')
+
     data = {'teams': teams,
             'featured_cars': featured_cars,
             'latest_cars': latest_cars,
-            'car_photo_range': car_photo_range,}
+            'make_search': make_search,
+            'model_search': model_search,
+            'year_search': year_search,
+            'state_search': state_search,
+            'body_search': body_search,}
     return render(request, 'pages/home.html', data)
 
 def about(request):
