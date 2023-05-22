@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Setting for Social login
+LOGIN_REDIRECT_URL = 'dashboard'
 
 # Application definition
 
@@ -42,6 +44,14 @@ INSTALLED_APPS = [
     'accounts_app.apps.AccountsAppConfig',
     'ckeditor',
     'django.contrib.humanize',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+
+    # Social media providers
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
 ]
 
 MIDDLEWARE = [
@@ -145,3 +155,6 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# Settings for Social login
+SITE_ID = 1
