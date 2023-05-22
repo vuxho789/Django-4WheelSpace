@@ -5645,7 +5645,7 @@ footer {
     position: relative;
     font-family: Open Sans;
     font-size: 13px;
-    color: #616161;
+    color: #616161;img
     text-transform: capitalize;
 }
 
@@ -9858,7 +9858,7 @@ input, input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
         color: #495057 !important;
 }
 .contact-dealer.modal-header{
-    background: #f0151f !important;
+    background: #ffffff !important;
 }
 .contact-dealer.modal-header img{
     width: 75% !important;
