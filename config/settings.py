@@ -151,7 +151,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
-# Messages settings
+# Settings for messages on frontend
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
@@ -159,3 +159,12 @@ MESSAGE_TAGS = {
 
 # Settings for Social login
 SITE_ID = 1
+
+# Settings for sending emails
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'XXXXX'
+EMAIL_HOST_PASSWORD = 'XXXXX' # Note: Not email password. Password is obtained from 2-step authentication in Google account
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
