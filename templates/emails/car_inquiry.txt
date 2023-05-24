@@ -1,0 +1,6 @@
+New Inquiry for Car {{contact.car_name}}
+
+You have a new inquiry from customer {{contact.first_name}} {{contact.last_name}} for the car {{contact.car_name}}. Please login to the admin panel for more info.
+        
+Yours sincerely,
+4WheelSpace Support Team

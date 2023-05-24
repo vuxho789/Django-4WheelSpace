@@ -11,21 +11,28 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Load environment variables from the .env file
+load_dotenv(override=True)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-mjlv_a6=()n)7)6@1cp@5k7++94k)ui=h!r#w%jo5g+v-r3)7o'
+# For development
+# SECRET_KEY = 'django-insecure-mjlv_a6=()n)7)6@1cp@5k7++94k)ui=h!r#w%jo5g+v-r3)7o'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'my_precious_key')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(int(os.environ.get('DEBUG', 0)))
 
 ALLOWED_HOSTS = []
+ALLOWED_HOSTS.extend(filter(None, os.environ.get('ALLOWED_HOSTS', '').split(','),))
 
 # Setting for Social login
 LOGIN_REDIRECT_URL = 'dashboard'
@@ -92,10 +99,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'wheelspace_db',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'HOST': os.environ.get('DB_HOST'),
     }
 }
 
@@ -164,7 +171,7 @@ SITE_ID = 1
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'XXXXX'
-EMAIL_HOST_PASSWORD = 'XXXXX' # Note: Not email password. Password is obtained from 2-step authentication in Google account
+EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD') # Note: This is not email password. Host password is obtained from 2-step authentication in Google account
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False

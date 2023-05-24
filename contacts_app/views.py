@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.models import User
 from config.settings import EMAIL_HOST_USER
 from django.core.mail import send_mail
+from django.template.loader import render_to_string
 
 
 # Create your views here.
@@ -39,10 +40,14 @@ def inquiry(request):
         admin_info = User.objects.get(is_superuser=True)
         admin_email = admin_info.email
         email_subject = '4WheelSpace - New Car Inquiry'
-        email_body = f'You have a new inquiry for the car {car_name}. Please login to the admin panel for more info.'
-        send_mail(email_subject, email_body,
+        email_data = {'first_name': first_name, 'last_name': last_name, 'car_name':car_name}
+
+        plain_body = render_to_string('emails/car_inquiry.txt', {'contact': email_data})
+        html_body = render_to_string('emails/car_inquiry.html', {'contact': email_data})
+        send_mail(email_subject, plain_body,
                   EMAIL_HOST_USER,
                   [admin_email],
+                  html_message = html_body,
                   fail_silently=False,)
                 
         # Send a message in the frontend

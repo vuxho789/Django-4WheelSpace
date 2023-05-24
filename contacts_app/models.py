@@ -1,11 +1,14 @@
 from django.db import models
+from django.contrib.auth.models import User
+from cars_app.models import Car
+
 
 # Create your models here.
 class Contact(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
-    user_id = models.IntegerField(blank=True)
-    car_id = models.IntegerField()
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    car = models.ForeignKey(Car, on_delete=models.CASCADE)
     car_name = models.CharField(max_length=100)
     city = models.CharField(max_length=100)
     state = models.CharField(max_length=100)

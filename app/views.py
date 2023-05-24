@@ -1,6 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Team
 from cars_app.models import Car
+from django.contrib.auth.models import User
+from django.contrib import messages
+from config.settings import EMAIL_HOST_USER
+from django.core.mail import send_mail
+from django.template.loader import render_to_string
 
 # Create your views here.
 def home(request):
@@ -33,4 +38,29 @@ def services(request):
     return render(request, 'pages/services.html')
 
 def contact(request):
-    return render(request, 'pages/contact.html')
+    if request.method == 'POST':
+        full_name = request.POST['full_name']
+        email = request.POST['email']
+        subject = request.POST['subject']
+        phone = request.POST['phone']
+        message = request.POST['message']
+
+        admin_info = User.objects.get(is_superuser=True)
+        admin_email = admin_info.email
+        email_subject = '4WheelSpace - You have a new message'
+        email_data = {'full_name': full_name, 'email': email, 'phone': phone,
+                      'subject': subject, 'message': message}
+
+        plain_body = render_to_string('emails/new_message.txt', {'contact': email_data})
+        html_body = render_to_string('emails/new_message.html', {'contact': email_data})
+        send_mail(email_subject, plain_body,
+                  EMAIL_HOST_USER,
+                  [admin_email],
+                  html_message = html_body,
+                  fail_silently=False,)
+        
+        messages.success(request, 'Thank you for contacting us. We will get back to you shortly')
+        return redirect('contact')
+    
+    else:
+        return render(request, 'pages/contact.html')

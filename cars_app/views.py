@@ -29,7 +29,11 @@ def cars(request):
 
 def car_details(request, id):
     single_car = get_object_or_404(Car, pk=id)
-    data = {'single_car': single_car,}
+    AU_states = ['NSW', 'VIC', 'QLD', 'WA',
+                 'SA', 'TAS', 'ACT', 'NT']
+
+    data = {'single_car': single_car,
+            'states': AU_states,}
     return render(request, 'cars/car_details.html', data)
 
 

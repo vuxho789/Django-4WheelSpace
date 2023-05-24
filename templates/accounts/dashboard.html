@@ -3,6 +3,7 @@
 {% block title %} | User Dashboard {% endblock %}
 
 {% block content %}
+{% load humanize %}
 {% load static %}
 <!-- Sub banner start -->
 <div class="sub-banner overview-bgi">
@@ -24,41 +25,35 @@
 	<div class="main-title" style="text-align:left !important;">
             <h1>Welcome <span>{{user.first_name}}</span></h1>
             <p>Here are the cars that you have inquired about</p>
-        </div>
-	<table class="table table-hover">
-	  <thead>
-		<tr>
-		  <th scope="col">#</th>
-		  <th scope="col">Car Name</th>
-		  <th scope="col">Location</th>
-		  <th scope="col">Price</th>
-		  <th scope="col">Action</th>
-		</tr>
-	  </thead>
-	  <tbody>
-		<tr>
-		  <th scope="row">1</th>
-		  <td>Lamborgini Huracan</td>
-		  <td>Austin</td>
-		  <td>$25000</td>
-		  <td><a href="#" class="btn btn-outline-dark">View Car</a></td>
-		</tr>
-		<tr>
-		  <th scope="row">2</th>
-		  <td>Lamborgini Huracan</td>
-		  <td>Austin</td>
-		  <td>$25000</td>
-		  <td><a href="#" class="btn btn-outline-dark">View Car</a></td>
-		</tr>
-		<tr>
-		  <th scope="row">3</th>
-		  <td>Lamborgini Huracan</td>
-		  <td>Austin</td>
-		  <td>$25000</td>
-		  <td><a href="#" class="btn btn-outline-dark">View Car</a></td>
-		</tr>
-	  </tbody>
-	</table>
+    </div>
+	{% if inquiries %}
+		<table class="table table-hover">
+		<thead>
+			<tr>
+			<th scope="col">#</th>
+			<th scope="col">Car Name</th>
+			<th scope="col">Location</th>
+			<th scope="col">Price</th>
+			<th scope="col">Date</th>
+			<th scope="col">Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for inquiry in inquiries %}
+			<tr>
+				<th scope="row">{{forloop.counter}}</th>
+				<td>{{inquiry.car_name}}</td>
+				<td>{{inquiry.car.city}}, {{inquiry.car.state}}</td>
+				<td>${{inquiry.car.price | intcomma}}</td>
+				<td>{{inquiry.created_date | date:"SHORT_DATE_FORMAT"}}</td>
+				<td><a href="{% url 'car_details' inquiry.car.id %}" class="btn btn-outline-dark">View Car</a></td>
+			</tr>
+			{% endfor %}
+		</tbody>
+		</table>
+	{% else %}
+		<h4>You have no inquiry</h4>
+	{% endif %}
 </div>
 
 <!--   Dashboard End   -->

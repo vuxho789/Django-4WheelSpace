@@ -264,7 +264,15 @@
                                                     <input type="text" name="city" class="form-control" placeholder="City" required>
                                                 </div>
                                                 <div class="col">
+                                                    <select class="form-control" name="state" placeholder="State" required>
+                                                        <option disabled="disabled" selected="selected">State</option>  
+                                                        {% for state in states %}
+                                                            <option value="{{state}}">{{state}}</option>
+                                                        {% endfor %}
+                                                    </select>
+                                                    <!--
                                                     <input type="text" name="state" class="form-control" placeholder="State" required>
+                                                    -->
                                                 </div>
                                             </div>
                                         </div>

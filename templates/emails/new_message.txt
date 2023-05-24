@@ -1,0 +1,16 @@
+New Customer Message
+
+You have a new message from customer {{contact.first_name}} {{contact.last_name}}.
+
+Subject:
+{{contact.subject}}
+
+Message Details:
+{{contact.message}}
+
+Contact Details:
+Email: {{contact.email }}
+Phone: {{contact.phone }}
+
+Yours sincerely,
+4WheelSpace Support Team
