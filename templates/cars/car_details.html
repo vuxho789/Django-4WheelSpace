@@ -222,7 +222,7 @@
                                         {% if user.is_authenticated %}
                                             <input type="hidden" name="user_id" value="{{user.id}}">
                                         {% else %}
-                                            <input type="hidden" name="user_id" value="0">
+                                            <input type="hidden" name="user_id" value="NULL">
                                         {% endif %}
 
                                         <input type="hidden" name="car_id" value="{{single_car.id}}">
