@@ -5,7 +5,7 @@ botocore==1.29.99
 cement==2.8.2
 certifi==2023.5.7
 cffi==1.15.1
-charset-normalizer==3.1.0
+charset-normalizer==2.0.0
 colorama==0.4.3
 cryptography==40.0.2
 defusedxml==0.7.1
@@ -19,7 +19,7 @@ django-js-asset==2.0.0
 django-multiselectfield==0.1.12
 django-session-timeout==0.1.0
 filelock==3.12.0
-idna==3.4
+idna==2.10
 jmespath==1.0.1
 oauthlib==3.2.2
 pathspec==0.10.1
@@ -41,6 +41,6 @@ sqlparse==0.4.4
 termcolor==1.1.0
 typing_extensions==4.6.1
 tzdata==2023.3
-urllib3>=1.26.5,<1.27
+urllib3==1.26.5
 virtualenv==20.23.0
 wcwidth>=0.1.7,<0.2.0
