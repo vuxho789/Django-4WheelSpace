@@ -99,6 +99,9 @@ $(function () {
         placedDashboard();
     });
 
+
+    var logoUrl = config.STATIC_URL + 'img/logos/logo.png';
+    var blackLogoUrl = config.STATIC_URL + 'img/logos/black-logo.png';
     function adjustHeader()
     {
         var windowWidth = $(window).width();
@@ -108,19 +111,19 @@ $(function () {
                     $('.sticky-header').addClass('header-shrink');
                 }
                 if($('.do-sticky').length < 1) {
-                    $('.company-logo img').attr('src', '../static/img/logos/black-logo.png');
+                    $('.company-logo img').attr('src', blackLogoUrl);
                 }
             }
             else {
                 $('.sticky-header').removeClass('header-shrink');
                 if($('.do-sticky').length < 1 && $('.fixed-header').length == 0 && $('.fixed-header2').length == 0) {
-                    $('.company-logo img').attr('src', '../static/img/logos/logo.png');
+                    $('.company-logo img').attr('src', logoUrl);
                 } else {
-                    $('.company-logo img').attr('src', '../static/img/logos/black-logo.png');
+                    $('.company-logo img').attr('src', blackLogoUrl);
                 }
             }
         } else {
-            $('.company-logo img').attr('src', '../static/img/logos/black-logo.png');
+            $('.company-logo img').attr('src', blackLogoUrl);
         }
     }
 

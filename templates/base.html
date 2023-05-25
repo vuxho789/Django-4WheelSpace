@@ -64,6 +64,12 @@
 
 {% include 'includes/footer.html' %}
 
+<script type="text/javascript">
+    var config = {
+        'STATIC_URL': '{{ STATIC_URL }}'
+    };
+</script>
+
 <script src="{% static 'js/jquery-2.2.0.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
