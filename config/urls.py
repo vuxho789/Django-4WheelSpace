@@ -19,7 +19,8 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
+    path('secured-admin/', admin.site.urls),
     path('', include('app.urls')),
     path('cars/', include('cars_app.urls')),
     path('accounts/', include('accounts_app.urls')),

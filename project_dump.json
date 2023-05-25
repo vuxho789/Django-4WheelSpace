@@ -1,0 +1,1025 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$LAlhhPhSjClP4A5Birfarc$UKFS5YDIDPG5o2w+SID9BqAjK6p3K1lZaJx54iUTfOU=",
+        "last_login": "2023-05-24T16:23:46.983Z",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "Vu",
+        "last_name": "Ho",
+        "email": "tuanvu.ho89@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-04-25T03:43:47Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!eYzk4XaeAimVZ3mBto2U04XzfCqUZBxEnJbrSpp0",
+        "last_login": "2023-05-22T12:52:15.706Z",
+        "is_superuser": false,
+        "username": "tuan_vu",
+        "first_name": "Tuan Vu",
+        "last_name": "Ho",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-22T12:52:15.670Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!LopkHbFzvuZRjKLpD13vSwiHAftZuV5OOl8QbjZ4",
+        "last_login": "2023-05-22T13:24:38.183Z",
+        "is_superuser": false,
+        "username": "joey",
+        "first_name": "Joey",
+        "last_name": "Tribbiani",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-22T13:22:13.766Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$dZBzYpZe2lEjWrwxBfKTKE$YwncTVdyFti2TzES0qJZRivaf38MGc8BhVz41zwm2a0=",
+        "last_login": "2023-05-24T14:13:45.757Z",
+        "is_superuser": false,
+        "username": "joey.trib",
+        "first_name": "Joey",
+        "last_name": "Tribbiani",
+        "email": "customer.testing22@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-05-24T14:13:22.582Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5d3o07bqx40t632g20t9ckf2hgedwghg",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1pzel5:ptGvkMKgu_9KZUzO3UFLkN2cacmZCOKpnpN0L7HyXp0",
+        "expire_date": "2023-06-01T14:37:35.940Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6l2sm1v8qyft656swju3p9qgiibylida",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1q0c0O:Jux2TF5QEtVzHaQqiahLmgetLK2mfrOPXQYfvTmtkVQ",
+        "expire_date": "2023-06-04T05:53:20.227Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9jw94fcuofwfgxo4kj6hevu8ztmdbats",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1q0P3y:ze3mbyto_a3uy-AvkTZPxQTvQyO0BzpZWqUO1Wt59cM",
+        "expire_date": "2023-06-03T16:04:10.087Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eg4baspwdgx58pkxhr7b0d1ive8vkdt0",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1q0Ouh:ffUwtCXyL9yK6L8dEY_opbZJT9rEUARplVf7-lsfRRM",
+        "expire_date": "2023-06-03T15:54:35.531Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hk74idqgq2uf8b69a87z7raoxeu4licl",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1pzovb:vGg_WPHHAJWZU7fqpg8bjdWheJ-DMfRa56iqDDr9cwQ",
+        "expire_date": "2023-06-02T01:29:07.070Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "j9mpsygpeijup0dlrnqq9zhspzhbzmv7",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1q15XJ:2cgSoe-Wy0kjNLetBqa36Nxy0_MEXo4wrGCfCdkpgdo",
+        "expire_date": "2023-06-05T13:25:17.581Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "knyxgqf2s23rknjjg23z716lntp934j2",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1pzXXZ:B0LGfNvgU18dmenY_aM1n3YoZMN0mW8f3BZVP_LTfwQ",
+        "expire_date": "2023-06-01T06:55:09.053Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nxwopfmb8e4dvbibocdwvx3na03jq4ee",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOBQou3fcMZBimUjWQlHZlvLsh6UK3_7333yLgsedwNN7CmsRVgLj8bhHpyaWD9MByr5Jq2bc1yq7IkzY518Sv2-n-HWRsudesXfR-WJzSxEjRLtYNI-FoMaG25KwHzcYrds5EA8ATqWj9BASJR_H5AvYROBM:1prADx:9xfou6XNz1gITjpIdlAdXuziMNxPTlDfIlkTKrVozVE",
+        "expire_date": "2023-05-09T04:24:17.603Z"
+    }
+},
+{
+    "model": "app.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Joey",
+        "last_name": "Tribbiani",
+        "role": "CEO",
+        "email": "joey.tribiani@4wheelspace.com.au",
+        "photo": "photos/2023/04/25/ava-15.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "instagram_link": "https://www.instagram.com",
+        "created_date": "2023-04-25T05:06:06.472Z"
+    }
+},
+{
+    "model": "app.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Amy",
+        "last_name": "Santiago",
+        "role": "General Manager",
+        "email": "amy.santiago@4wheelspace.com.au",
+        "photo": "photos/2023/04/25/ava-17.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "instagram_link": "https://www.instagram.com",
+        "created_date": "2023-04-25T05:13:39.511Z"
+    }
+},
+{
+    "model": "app.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Terrence",
+        "last_name": "Ballard",
+        "role": "Sales Manager",
+        "email": "terrence.ballard@4wheelspace.com.au",
+        "photo": "photos/2023/04/25/ava-16.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "instagram_link": "https://www.instagram.com",
+        "created_date": "2023-04-25T05:15:56.942Z"
+    }
+},
+{
+    "model": "app.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Nelson",
+        "last_name": "Blair",
+        "role": "Sales Executive",
+        "email": "nelson.blair@4wheelspace.com.au",
+        "photo": "photos/2023/04/25/ava-18.jpg",
+        "facebook_link": "https://www.facebook.com",
+        "instagram_link": "https://www.instagram.com",
+        "created_date": "2023-04-25T05:17:06.699Z"
+    }
+},
+{
+    "model": "cars_app.car",
+    "pk": 1,
+    "fields": {
+        "car_name": "2017 Ferrari 488 GTB",
+        "city": "Griffith",
+        "state": "NSW",
+        "make": "Ferrari",
+        "model": "488GTB",
+        "year": 2017,
+        "colour": "White",
+        "condition": "Used",
+        "price": 450000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a>&nbsp;The 488 was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">F8 Tributo</a>&nbsp;in February 2019.</p>\r\n\r\n<p><em>Source: Wikipedia</em></p>",
+        "car_photo": "photos/2023/05/19/1902536891.jpg",
+        "car_photo_1": "photos/2023/05/19/1902536917.jpg",
+        "car_photo_2": "photos/2023/05/19/1902537043.jpg",
+        "car_photo_3": "photos/2023/05/19/1902537077.jpg",
+        "car_photo_4": "photos/2023/05/19/1902537082.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Seat Heating,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Coupe",
+        "engine": "8 cylinder 3.9L Twin Turbo",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "kilometres": 11215,
+        "doors": "2",
+        "passengers": 2,
+        "fuel_type": "Petrol",
+        "fuel_consumption": 11.4,
+        "registration_plate": "WP0AB",
+        "is_featured": true,
+        "created_date": "2023-05-18T14:35:58.578Z"
+    }
+},
+{
+    "model": "cars_app.car",
+    "pk": 2,
+    "fields": {
+        "car_name": "2020 Ford Everest Titanium",
+        "city": "Adelaide",
+        "state": "SA",
+        "make": "Ford",
+        "model": "Everest",
+        "year": 2020,
+        "colour": "Meteor Grey",
+        "condition": "Used",
+        "price": 62480,
+        "description": "<p>A spin-off from the highly successful Ford Ranger, Ford&#39;s Everest large SUV can be had in rear-drive or dual-range 4x4 form. Despite having a shorter wheelbase than its Ranger donor, the Everest&#39;s bespoke coil-spring rear suspension helps make for a large, refined seven-seat wagon that&#39;s available in Ambiente, Trend, Titanium or Sport form. Standard safety features include autonomous emergency braking and lane-keep assist. The Everest comes in auto form only: a six-speeder when coupled with the 143kW/470Nm five-cylinder 3.2-litre turbo-diesel, or a 10-speeder with the new 157kW/500Nm twin-turbo 2.0-litre four-cylinder diesel. It competes with legitimate off-roaders such as Isuzu MU-X, Mitsubishi Pajero Sport and Toyota Prado.</p>\r\n\r\n<p><em>Source: Carsales</em></p>",
+        "car_photo": "photos/2023/05/19/58z6tzjqgssaf0w8qh9tr91vf.jpg",
+        "car_photo_1": "photos/2023/05/19/dhwbnmewbilqztp1ymi98g6wi.jpg",
+        "car_photo_2": "photos/2023/05/19/a593888t5ltgzzase4jjd2ya8.jpg",
+        "car_photo_3": "photos/2023/05/19/a86u0hjf0xduqe7ks909vt5np.jpg",
+        "car_photo_4": "photos/2023/05/19/66i464cgg185sy1gbtp48hivb.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,ParkAssist,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "4 cylinder 2.0L Twin Turbo",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "kilometres": 30897,
+        "doors": "5",
+        "passengers": 7,
+        "fuel_type": "Diesel",
+        "fuel_consumption": 7.0,
+        "registration_plate": "GH9IP",
+        "is_featured": false,
+        "created_date": "2023-05-18T15:25:08.221Z"
+    }
+},
+{
+    "model": "cars_app.car",
+    "pk": 3,
+    "fields": {
+        "car_name": "2021 Ford Ranger Wildtrak",
+        "city": "Gold Coast",
+        "state": "QLD",
+        "make": "Ford",
+        "model": "Ranger",
+        "year": 2021,
+        "colour": "Meteor Grey",
+        "condition": "Used",
+        "price": 59990,
+        "description": "<p>The highly successful Ford Ranger lineup comprises two-door, four-door &quot;super&quot; and double-cab cab-chassis/ute variants. Engines include a 118kW/385Nm 2.2-litre turbo-diesel, a 147kW/470Nm 3.2-litre five-cylinder turbo-diesel and a 157kW/500Nnm 2.0-litre bi-turbo diesel. Rear-drive, or dual-range 4x4 drivelines are available, along with six-speed manual, and six or 10-speed auto gearboxes. With autonomous emergency braking and Ford&#39;s SYNC3 touch-screen system standard, the five-star ANCAP Ranger lineup begins with a two-passenger 4x2 XL-spec cab-chassis and tops out with the Raptor 4x4 double-cab ute. Here, leather/suede powered and heated sports front seats, sat-nav, climate-control, lane-keep assist and BF Goodrich all-terrain tyres are standard. The nominally one-tonne Ranger can tow as much as 3.5 tonnes.</p>\r\n\r\n<p><em>Source: Carsales</em></p>",
+        "car_photo": "photos/2023/05/19/ab4c46eff3cbd164911d64cfc633b430.jpg",
+        "car_photo_1": "photos/2023/05/19/bde89eb10d072035c852d74e0f3802b9.jpg",
+        "car_photo_2": "photos/2023/05/19/d09fea8af2a01dbe3fdf3fe312b9fa80.jpg",
+        "car_photo_3": "photos/2023/05/19/4e0cc342167a64db9010e03bc79b2e13.jpg",
+        "car_photo_4": "photos/2023/05/19/64af465fc87dbb2832edd5ed15e6470a.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,ParkAssist,Reversing Camera,Bluetooth Handset",
+        "body_style": "Ute",
+        "engine": "4 cylinder 2.0L Twin Turbo",
+        "transmission": "Automatic",
+        "interior": "Cloth",
+        "kilometres": 41777,
+        "doors": "4",
+        "passengers": 5,
+        "fuel_type": "Diesel",
+        "fuel_consumption": 7.4,
+        "registration_plate": "YZ9RT",
+        "is_featured": true,
+        "created_date": "2023-05-18T15:30:51.021Z"
+    }
+},
+{
+    "model": "cars_app.car",
+    "pk": 4,
+    "fields": {
+        "car_name": "2018 Toyota Corolla",
+        "city": "Perth",
+        "state": "WA",
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "colour": "Glacier White",
+        "condition": "Used",
+        "price": 28990,
+        "description": "<p>The 2018 Toyota Corolla, a hallmark of dependability and efficiency, is the ideal choice for drivers seeking reliability and value in a compact sedan. Powered by a fuel-efficient 1.8L four-cylinder engine with 98 kW, this model promises optimal fuel economy with an impressive combined fuel consumption of 6.4L/100km. Its spacious interior features high-quality materials and comfortably seats up to five people. An impressive suite of standard features is included with Toyota&#39;s Safety Sense P, which has forward collision warning, automatic emergency braking, lane departure alert, and adaptive cruise control. On the technology front, the Corolla boasts a 15.5cm touchscreen, Bluetooth, USB ports, and a six-speaker audio system. A proven track record of longevity and Toyota&#39;s reputation for quality make the 2018 Corolla an excellent choice for those seeking peace of mind on the road.</p>",
+        "car_photo": "photos/2023/05/19/1900893311.jpg",
+        "car_photo_1": "photos/2023/05/19/1900893299.jpg",
+        "car_photo_2": "photos/2023/05/19/1900893319.jpg",
+        "car_photo_3": "photos/2023/05/19/1900893329.jpg",
+        "car_photo_4": "photos/2023/05/19/1900893391.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Reversing Camera,Bluetooth Handset",
+        "body_style": "Sedan",
+        "engine": "4 cylinder 1.8L",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "kilometres": 21413,
+        "doors": "5",
+        "passengers": 5,
+        "fuel_type": "Petrol",
+        "fuel_consumption": 6.4,
+        "registration_plate": "V9HNM",
+        "is_featured": true,
+        "created_date": "2023-05-18T15:48:06.990Z"
+    }
+},
+{
+    "model": "cars_app.car",
+    "pk": 5,
+    "fields": {
+        "car_name": "2013 Honda CR-V VTi-S",
+        "city": "Adelaide",
+        "state": "SA",
+        "make": "Honda",
+        "model": "CR-V VTi-S",
+        "year": 2013,
+        "colour": "Modern Steel",
+        "condition": "Used",
+        "price": 22900,
+        "description": "<p>Honda has split the CRV into currently fashionable 2WD and 4WD versions. The 2WD models run a 2.0-litre while the upper level 4x4s get the 2.4-litre engine - both being more powerful and frugal. Having lost the lead established in the late nineties, the 4th generation RM comes repackaged with a smaller profile but larger interior, improved manners, known Honda quality, and ancillary specs that have caught up to the pack that overtook it. ECO Assist attempts to keep the driver informed of - and moderate - their driving habits, while Econ Mode alters throttle mapping, cruise control and air conditioning accordingly.</p>\r\n\r\n<p><em>Source: Carsales</em></p>",
+        "car_photo": "photos/2023/05/19/6mny74ql0m5seto8v89923vaa.jpg",
+        "car_photo_1": "photos/2023/05/19/4rwjwlf32j7fhjofk8wkfn0bn.jpg",
+        "car_photo_2": "photos/2023/05/19/7xawh0voyvn269vsv5j4rwgec.jpg",
+        "car_photo_3": "photos/2023/05/19/93pn1m2ezfknaky5u5xen70lv.jpg",
+        "car_photo_4": "photos/2023/05/19/1sazpe07ko2bfpdwidozxnknx.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Reversing Camera,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "4 cylinder 2.4L",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "kilometres": 58200,
+        "doors": "5",
+        "passengers": 5,
+        "fuel_type": "Petrol",
+        "fuel_consumption": 8.7,
+        "registration_plate": "R70EP",
+        "is_featured": true,
+        "created_date": "2023-05-18T16:09:25.537Z"
+    }
+},
+{
+    "model": "cars_app.car",
+    "pk": 6,
+    "fields": {
+        "car_name": "2016 Audi Q7 TDI",
+        "city": "Melbourne",
+        "state": "VIC",
+        "make": "Audi",
+        "model": "Q7",
+        "year": 2016,
+        "colour": "Daytona Grey Pearl",
+        "condition": "Used",
+        "price": 48690,
+        "description": "<p>With the BMW X5 and Mercedes-Benz GLE as its main competitors, the flagship Audi Q7 has its bases well covered. The big SUV takes seven passengers with relative ease, and drives like something smaller than it actually is. There are two 3.0-litre turbo-diesel engines, in 160kW500Nm form, or as a 200kW/600Nm powerhouse, both driving the quattro system via an eight-speed transmission. Leather, sat-nav, DAB radio and 19-inch alloys and plenty of safety aids are part of the picture, including active lane assist, side-assist, pre-sense rear, exit warning and rear cross traffic alert.</p>\r\n\r\n<p><em>Source: Carsales</em></p>",
+        "car_photo": "photos/2023/05/19/au22bp1s7klpuo0is1grmbk69.jpg",
+        "car_photo_1": "photos/2023/05/19/4j7q404c9zrwxor3mnhs452ww.jpg",
+        "car_photo_2": "photos/2023/05/19/2uv8psurh2w21ij50bpbvwc8c.jpg",
+        "car_photo_3": "photos/2023/05/19/9pxbknxwtjbwl4fo3fm755sfb.jpg",
+        "car_photo_4": "photos/2023/05/19/cfswgaamlis437e0b00txctrp.jpg",
+        "features": "Cruise Control,Airbags,Air Conditioning,Seat Heating,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "6 cylinder 3.0L Turbo",
+        "transmission": "Automatic",
+        "interior": "Black Leather",
+        "kilometres": 105548,
+        "doors": "5",
+        "passengers": 7,
+        "fuel_type": "Diesel",
+        "fuel_consumption": 5.8,
+        "registration_plate": "M6HD0",
+        "is_featured": false,
+        "created_date": "2023-05-18T16:21:36.963Z"
+    }
+},
+{
+    "model": "contacts_app.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "customer",
+        "last_name": "testing",
+        "user": null,
+        "car": 6,
+        "car_name": "2016 Audi Q7 TDI",
+        "city": "Sydney",
+        "state": "NSW",
+        "email": "testing@gmail.com",
+        "phone": "",
+        "message": "Test message",
+        "customer_need": "I'm interested in this",
+        "created_date": "2023-05-23T14:46:19.151Z"
+    }
+},
+{
+    "model": "contacts_app.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "customer",
+        "last_name": "testing",
+        "user": null,
+        "car": 5,
+        "car_name": "2013 Honda CR-V VTi-S",
+        "city": "Sydney",
+        "state": "NSW",
+        "email": "customer@gmail.com",
+        "phone": "",
+        "message": "Test Message",
+        "customer_need": "I'm interested in this",
+        "created_date": "2023-05-23T15:15:17.885Z"
+    }
+},
+{
+    "model": "contacts_app.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "customer",
+        "last_name": "testing",
+        "user": null,
+        "car": 5,
+        "car_name": "2013 Honda CR-V VTi-S",
+        "city": "Sydney",
+        "state": "NSW",
+        "email": "customer@gmail.com",
+        "phone": "",
+        "message": "Test Message",
+        "customer_need": "I'm interested in this",
+        "created_date": "2023-05-23T15:16:40.680Z"
+    }
+},
+{
+    "model": "contacts_app.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Vu",
+        "last_name": "Ho",
+        "user": [
+            "djangoadmin"
+        ],
+        "car": 5,
+        "car_name": "2013 Honda CR-V VTi-S",
+        "city": "Sydney",
+        "state": "NSW",
+        "email": "tuanvu.ho89@gmail.com",
+        "phone": "",
+        "message": "Testing",
+        "customer_need": "I'm interested in this",
+        "created_date": "2023-05-24T07:48:21.648Z"
+    }
+},
+{
+    "model": "contacts_app.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Joey",
+        "last_name": "Tribbiani",
+        "user": [
+            "joey.trib"
+        ],
+        "car": 1,
+        "car_name": "2017 Ferrari 488 GTB",
+        "city": "Sydney",
+        "state": "NSW",
+        "email": "customer.testing22@gmail.com",
+        "phone": "",
+        "message": "As above",
+        "customer_need": "I'd like to know your best price for this",
+        "created_date": "2023-05-24T14:14:44.992Z"
+    }
+},
+{
+    "model": "contacts_app.contact",
+    "pk": 6,
+    "fields": {
+        "first_name": "Joey",
+        "last_name": "Tribbiani",
+        "user": [
+            "joey.trib"
+        ],
+        "car": 4,
+        "car_name": "2018 Toyota Corolla",
+        "city": "Brisbane",
+        "state": "Queensland",
+        "email": "customer.testing22@gmail.com",
+        "phone": "",
+        "message": "Can we please organise a test drive for this car?",
+        "customer_need": "I'd like to test drive this",
+        "created_date": "2023-05-24T14:16:23.380Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "1398421427619507",
+        "secret": "3b510df3b0be3890c8f661410b36c18e",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google login",
+        "client_id": "174105749276-gh2pn373u68k3diht92vol7n8c248q1t.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "tuan_vu"
+        ],
+        "provider": "facebook",
+        "uid": "10222952221296205",
+        "last_login": "2023-05-22T12:52:15.683Z",
+        "date_joined": "2023-05-22T12:52:15.683Z",
+        "extra_data": "{\"id\": \"10222952221296205\", \"name\": \"Ho Tuan Vu\", \"first_name\": \"Tuan Vu\", \"last_name\": \"Ho\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "joey"
+        ],
+        "provider": "google",
+        "uid": "109302810186487198217",
+        "last_login": "2023-05-22T13:24:38.171Z",
+        "date_joined": "2023-05-22T13:22:13.778Z",
+        "extra_data": "{\"iss\": \"https://accounts.google.com\", \"azp\": \"174105749276-gh2pn373u68k3diht92vol7n8c248q1t.apps.googleusercontent.com\", \"aud\": \"174105749276-gh2pn373u68k3diht92vol7n8c248q1t.apps.googleusercontent.com\", \"sub\": \"109302810186487198217\", \"at_hash\": \"nnCGHoYh0h0q4ROM5Lllgg\", \"name\": \"Joey Tribbiani\", \"picture\": \"https://lh3.googleusercontent.com/a/AGNmyxaHztZAyzR3do3sMwUZD-M1FADGNCr9yIdGXvP1=s96-c\", \"given_name\": \"Joey\", \"family_name\": \"Tribbiani\", \"locale\": \"en\", \"iat\": 1684761879, \"exp\": 1684765479}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-04-25T03:46:30.803Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-04-25T05:06:06.473Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "app",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "<User(id=1, name=Joey, email=joey.tribiani@4wheelspace.com.au)>",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-04-25T05:13:39.512Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "app",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Amy Santiago",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-04-25T05:15:56.943Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "app",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Terrence Ballard",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-04-25T05:17:06.701Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "app",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Nelson Blair",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-05-18T14:35:58.583Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-05-18T14:39:05.243Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-05-18T15:25:08.223Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2020 Ford Everest Titanium",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-05-18T15:30:51.023Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2021 Ford Ranger Wildtrak",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-05-18T15:48:06.991Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-05-18T16:09:25.539Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2013 Honda CR-V VTi-S",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-05-18T16:21:36.965Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2016 Audi Q7 TDI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-05-18T16:22:17.426Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Engine\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-05-19T01:26:48.243Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2016 Audi Q7 TDI",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-05-19T01:26:48.250Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-05-19T01:26:48.252Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-05-19T01:29:29.745Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-05-19T01:29:29.751Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2021 Ford Ranger Wildtrak",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-05-19T01:30:12.377Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-05-19T01:39:24.276Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2016 Audi Q7 TDI",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-05-19T01:39:24.279Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2013 Honda CR-V VTi-S",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-05-22T12:47:30.657Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-05-22T12:48:08.759Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-05-22T13:19:01.759Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-05-24T15:00:07.590Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars_app",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2013 Honda CR-V VTi-S",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+    }
+}
+]
