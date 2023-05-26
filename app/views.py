@@ -6,7 +6,7 @@ from django.contrib import messages
 from config.settings import EMAIL_HOST_USER
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
-from django.http import JsonResponse
+from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
@@ -67,5 +67,5 @@ def contact(request):
         return render(request, 'pages/contact.html')
     
 def health(request):
-    return JsonResponse({'status': 'ok'})
+    return HttpResponse('Health check passed', status=200)
     
