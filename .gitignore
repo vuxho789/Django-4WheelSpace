@@ -202,3 +202,6 @@ atlassian-ide-plugin.xml
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# Database dump
+project_dump.json
